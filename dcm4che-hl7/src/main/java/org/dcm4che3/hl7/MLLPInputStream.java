@@ -51,8 +51,8 @@ import java.io.OutputStream;
  */
 public class MLLPInputStream extends BufferedInputStream {
 
-    private static final int SOM = 0x0b; // Start of Message
-    private static final int EOM1 = 0x1c; // End of Message Byte 1
+    private static final int SOM = 0x01; // Start of Message
+    private static final int EOM1 = 0x02; // End of Message Byte 1
     private static final int EOM2 = 0x0d; // End of Message Byte 2
 
     private boolean eom = true;

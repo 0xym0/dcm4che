@@ -48,8 +48,8 @@ import java.io.OutputStream;
  */
 public class MLLPOutputStream extends FilterOutputStream {
 
-    private static final int SOM = 0x0b; // Start of Message 
-    private static final byte[] EOM = { 0x1c, 0x0d }; // End of Message
+    private static final int SOM = 0x01; // Start of Message
+    private static final byte[] EOM = { 0x02, 0x0d }; // End of Message
 
     private boolean somWritten;
 
