@@ -42,10 +42,12 @@
   <parent>
     <artifactId>dcm4che-parent</artifactId>
     <groupId>org.dcm4che</groupId>
-    <version>3.3.8-CARDS</version>
+    <version>3.3.8-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
+  <groupId>org.dcm4che</groupId>
   <artifactId>dcm4che-hl7</artifactId>
+  <version>3.3.8-CARDS</version>
   <packaging>bundle</packaging>
   <name>dcm4che-hl7</name>
   <build>
